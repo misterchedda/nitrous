@@ -1,0 +1,13 @@
+version: 1.0.0
+
+sfx:
+  misterchedda_nitroboost_default:
+    file: ./nitrous.mp3
+  misterchedda_nitroboost_muscle:
+    file: ./nitrous_muscle.mp3
+  misterchedda_nitroboost_luxury:
+    file: ./nitrous_luxury.mp3
+  misterchedda_nitroboost_refuel:
+    file: ./refuel.mp3
+  misterchedda_nitroboost_burnout:
+    file: ./burnout.mp3

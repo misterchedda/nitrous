@@ -1,0 +1,19 @@
+# Optional. You can override default values from here.
+# Example: Rayfield Caliburn
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousFuelCapacity: 6.5 # (Float) Seconds of boost fuel
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousBaseForce: 290000.0    # (Float) Base force before mass scaling (> 0.0)
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousGlobalMultiplier: 850.0 # (Float) Multiplier after mass scaling (> 0.0)
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousConsumptionRate: 1.1   # (Float) Fuel consumed per second (>= 0.0)
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousRegenRate: 0.35        # (Float) Fuel regenerated per second passively (>= 0.0)
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousRegenPause: 1.8        # (Float) Duration passive regen pauses after boost (>= 0.0)
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousCooldown: 3.5          # (Float) Duration of cooldown when tank empty (>= 0.0)
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousBurnoutThreshold: 0.9        # (Float, 0.0-1.0) Min fuel % at activation for burnout
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousBurnoutRegenPercent: 0.4   # (Float, 0.0-1.0) Base fuel % regained on burnout
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousBurnoutRegenCooldown: 0.5  # (Float, >=0.0) Cooldown (seconds) for burnout regen trigger
+Vehicle.v_sport1_rayfield_caliburn_player.nitrousBurnoutEnabled: true
+
+
+UIJournalIcons.mchedda_msg_spl:
+  $type: gamedataJournalIcon_Record
+  atlasPartName: icon
+  atlasResourcePath: misterchedda\NitroBoost\ui\icons.inkatlas
